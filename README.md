@@ -23,3 +23,16 @@ A la fin du jeu, il peut choisir de rejouer ou de quitter le jeu.
 
 ```bash
 python pendu.py
+```
+
+Fonctionnalités disponibles dans le projet :
+- Sélection aléatoire d’un mot depuis le fichier mots_pendu.txt
+- Suppression des accents du mot sélectionné
+- Affichage progressif du mot à deviner sous forme de tirets (___)
+- Décompte et affichage du nombre de chances restantes
+- Affichage d’un indice lorsque l’utilisateur n’a plus qu’une seule chance
+- Possibilité de rejouer une nouvelle partie à la fin du jeu
+
+Remarques :
+Projet réalisé avec PyCharm, en suivant les instructions du cours.
+Le module module_lecture_mots.py a été utilisé tel que fourni par l’enseignante.
